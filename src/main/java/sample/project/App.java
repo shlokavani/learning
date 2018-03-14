@@ -1,10 +1,12 @@
 package sample.project;
 
+import org.testng.annotations.Test;
 
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello Jenkins World!" );
-    }
+	@Test
+	public void sampleMethod()
+	{
+		System.out.println( "Hello Jenkins World!" );
+	}
 }
